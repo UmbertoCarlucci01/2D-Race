@@ -1,0 +1,15 @@
+struct listaOs1{};
+struct listaOs2{};
+struct listaOs3{};
+struct listaGas{};
+listaOs1* addOs1(listaOs1* head, int D, int l);
+listaOs2* addOs2(listaOs2* head, int D, int l);
+listaOs3* addOs3(listaOs3* head, int D, int l);
+listaGas* addGas(listaGas* head, int D, int l);
+listaOs1* delOs1(listaOs1* head, int &oCounter);
+listaOs2* delOs2(listaOs2* head, int &oCounter);
+listaOs3* delOs3(listaOs3* head, int &oCounter);
+void ManOs1(listaOs1* tmpOs1, int D, int CurrLvl, DoStrada &s, int Mx, int My, int &Flashes, Score &t, Fuel &f);
+void ManOs2(listaOs2* tmpOs2, int D, int CurrLvl, DoStrada &s, int Mx, int My, int &Flashes, Score &t, Fuel &f);
+void ManOs3(listaOs3* tmpOs3, int D, int CurrLvl, DoStrada &s, int Mx, int My, int &Flashes, Score &t, Fuel &f);
+void ManGas(listaGas* tmpGas, int D, int CurrLvl, DoStrada &s, int Mx, int My, Score &t, Fuel &f);
